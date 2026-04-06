@@ -1,5 +1,7 @@
 # 并行审查系统 (Parallel Review System)
 
+[![测试](https://github.com/lufeng6542/agent-/actions/workflows/test.yml/badge.svg)](https://github.com/lufeng6542/agent-/actions/workflows/test.yml) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 为 Claude Code 提供的三阶段并行审查协议，在执行任务时自动启动多个并行 Agent 进行方案评审、资料查询和完成检查。
 
 ## 工作流程
