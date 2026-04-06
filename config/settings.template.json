@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python <YOUR_HOOKS_PATH>/parallel_review_reminder.py",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
